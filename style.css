@@ -4,6 +4,7 @@ body{
     background-color: #8A71C9;
     color: #FFFFFF;
     margin: 0;
+    margin-bottom: 30px;
 }
 
 h1{
@@ -43,6 +44,10 @@ section{
     margin: 0 auto;
 }
 
+section section{
+    max-width: 100%;
+}
+
 img{
     width: 100%;
 }
@@ -56,4 +61,30 @@ a{
     color: #99FFFF;
     font-weight: 700;
     line-height: 2;
+}
+
+.menuprincipal a{
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.menuprincipal{
+    background-color: #FF6CB5;
+    height: 40px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.menuprincipal li{
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 80px;
+}
+
+button{
+    background-color: #41F341;
+    border: 1px solid;
+    padding: 2px 20px;
+    border-radius: 3px;
 }
